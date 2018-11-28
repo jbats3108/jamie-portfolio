@@ -1,0 +1,81 @@
+/* Extra styling alongside bootstrap */
+
+* {
+	font-family: Abel;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: center;
+
+}
+
+.nav-link {
+	color: #333;
+}
+
+
+#top img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	max-width: 100%;
+}
+
+#top h1 {
+	border: 5px solid #000;
+	font-size: 48px;
+	padding: 0 2em;
+	margin-top: 6.5em;
+	margin-bottom: 0.5em;
+	display: inline-block;
+	width: 50%;
+}
+
+.dropdown-menu {
+	position: absolute;
+}
+
+.dropdown-item {
+	overflow: visible;
+}
+
+#about-us h1{
+	font-size: 4em;
+}
+
+#about-us p{
+	font-size: 1.2em;
+}
+
+#about-us-body ul{
+	font-size: 1.2em;
+	text-align: left;
+}
+
+#about-us-body img {
+	max-height: 100%
+}
+
+.blog-pic {
+	width: 100%;
+}
+
+.photo-hi {
+	max-width: 100%;
+	padding: 5px;
+}
+
+.subscribing {
+	width: 400px;
+	font-size: 24px;
+}
+
+#bottom {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.bottom-nav {
+	font-size: 22px;
+	font-weight: bold;
+}
