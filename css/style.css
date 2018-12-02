@@ -1,7 +1,12 @@
 /* Extra styling alongside bootstrap */
 
+@@font-face {
+	font-family: "typewriter";
+	src: url("../fonts/americantypewriterlight.tff"),local("../fonts/americantypewriterlight.tff");
+}
+
 * {
-	font-family: Abel;
+	font-family: "typewriter";
 	margin: 0 0;
 	padding: 0 0;
 	text-align: center;
