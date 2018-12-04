@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-
-
 var magic8Ball = {
 
 	//Possible answers to be displayed
@@ -53,8 +51,5 @@ var onClick = function(){
 
 //Call the onClick function when question button is clicked
 $("#questionButton").click(onClick);
-
-
-
 
 });
