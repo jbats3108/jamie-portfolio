@@ -79,3 +79,54 @@ body {
 	font-size: 22px;
 	font-weight: bold;
 }
+
+@media(max-width:320px) {
+
+    body {
+      max-width: 320px
+    }
+
+    #top {
+      margin-top: -125px;
+    }
+
+  	#top img {
+      position: relative;
+      left: 0;
+      top: 270px;
+      max-width: 320px;
+    }
+
+    #top h1 {
+    margin-top: 3.5em;
+    width: 320px;
+    font-size: 32px;
+  }
+
+  #about-us h1{
+    font-size: 40px;
+  }
+
+  #about-us p{
+    font-size: 14px;
+  }
+
+  #about-us-body ul{
+    font-size: 12px;
+  }
+
+  .blog-right {
+    font-size: 10px;
+    max-height: 100px;
+    overflow: hidden;
+  }
+
+  .photo-highlights {
+    margin-top: 1em;
+  }
+
+  .subscribing {
+    max-width: 70%;
+    font-size: 14px;
+  }
+}
