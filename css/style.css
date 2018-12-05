@@ -80,10 +80,196 @@ body {
 	font-weight: bold;
 }
 
+@media (max-width: 1440px) {
+  #top h1 {
+    margin-top: 7.5em;
+  }
+}
+
+@media(max-width:1024px) {
+  body {
+    max-width: 1024px;
+  }
+
+  #top h1 {
+  margin-top: 5em;
+  width: 510px;
+  font-size: 44px;
+  }
+
+  #about-us h1{
+    font-size: 40px;
+  }
+
+  #about-us p{
+    font-size: 18px;
+  }
+
+  #about-us-body img {
+    max-width: 210px;
+  }
+
+  #about-us-body ul{
+    font-size: 14px;
+  }
+
+}
+
+@media(max-width:768px) {
+  body {
+    max-width: 768px;
+  }
+
+  #top h1 {
+  margin-top: 5em;
+  width: 425px;
+  font-size: 32px;
+  }
+
+  #top img {
+    max-width: 768px;
+  }
+
+  #about-us h1{
+    font-size: 40px;
+  }
+
+  #about-us p{
+    font-size: 14px;
+  }
+
+  #about-us-body img {
+    max-width: 100%;
+  }
+
+  #about-us-body ul{
+    font-size: 14px;
+  }
+
+  .blog-post {
+    max-height: 210px;
+    overflow: hidden;
+  }
+
+  .blog-right {
+    font-size: 12px;
+    overflow: hidden;
+  }
+
+  #last-photo {
+    display: none;
+  }
+
+  .subscribing {
+    font-size: 16px;
+    max-width: 320px
+  }
+}
+
+@media(max-width:425px) {
+  body {
+    max-width: 425px;
+  }
+
+  #top {
+    margin-top: -175px;
+  }
+
+  #top img {
+    position: relative;
+    left: 0;
+    top: 270px;
+    max-width: 425px;
+  }
+
+  #top h1 {
+  margin-top: 3.5em;
+  width: 425px;
+  font-size: 32px;
+  }
+
+  #about-us h1{
+    font-size: 40px;
+  }
+
+  #about-us p{
+    font-size: 14px;
+  }
+
+  #about-us-body ul{
+    font-size: 14px;
+  }
+
+  .blog-post {
+    max-height: 135px;
+    overflow: hidden;
+  }
+
+  .blog-right {
+    font-size: 12px;
+    overflow: hidden;
+  }
+
+  .subscribing {
+    max-width: 70%;
+    font-size: 14px;
+  }
+}
+
+@media(max-width:375px) {
+  body {
+    max-width: 375px;
+  }
+
+  #top {
+    margin-top: -150px;
+  }
+
+  #top img {
+    position: relative;
+    left: 0;
+    top: 270px;
+    max-width: 375px;
+  }
+
+  #top h1 {
+  margin-top: 3.5em;
+  width: 375px;
+  font-size: 32px;
+  }
+
+  #about-us h1{
+    font-size: 40px;
+  }
+
+  #about-us p{
+    font-size: 14px;
+  }
+
+  #about-us-body ul{
+    font-size: 12px;
+  }
+
+  .blog-post {
+    max-height: 120px;
+    overflow: hidden;
+  }
+
+  .blog-right {
+    font-size: 12px;
+    overflow: hidden;
+  }
+
+  .subscribing {
+    max-width: 70%;
+    font-size: 14px;
+  }
+}
+
 @media(max-width:320px) {
 
     body {
-      max-width: 320px
+      max-width: 320px;
     }
 
     #top {
