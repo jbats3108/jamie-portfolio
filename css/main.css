@@ -5,6 +5,8 @@
 
 h2 {
   text-align: center;
+  font-size: 2em;
+  padding: 0;
 }
 
 /********** Body sections **********/
@@ -14,10 +16,17 @@ body {
   margin: 0;
 }
 
+main {
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url("../photos/singapore-top.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 
 .main-section {
   clear: both;
-  margin: 0 5px;
+  margin: 0;
   padding: 50px 0;
 }
 
@@ -26,9 +35,8 @@ body {
 .navbar {
   height: 100px;
   text-align: center;
-  background: pink;
-  padding-top: 5px;
-  margin: 0 5px;
+  padding: 15px 0;
+  background: olive;
 }
 
 .left-block {
@@ -69,7 +77,7 @@ nav li, a{
 
 #cta {
     margin: 4px 0;
-    padding: 25px 85px;
+    padding: 25px 60px;
 }
 
 #cta a {
@@ -80,7 +88,11 @@ nav li, a{
 
 #about-me {
   height: 300px;
-  background: blue;
+  color: #A4A1FF
+}
+
+#about-me h2 {
+  text-align: left;
 }
 
 #headshot {
@@ -98,7 +110,7 @@ nav li, a{
 
 #skills {
   height: 400px;
-  background: green;
+  color: #A4A1FF
 }
 
 .third-width {
@@ -118,7 +130,11 @@ nav li, a{
 
 #work {
   height: 825px;
-  background: teal;
+  background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url("../photos/desk.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #111;
+  font-weight: bold;
 }
 
 #work ul, p {
@@ -137,4 +153,30 @@ nav li, a{
   text-decoration: underline;
   line-height: 30px;
   padding: 0;
+}
+
+/********** Footer **********/
+
+#footer {
+  height: 400px;
+  background: olive;
+  text-align: center;
+}
+
+#footer li, #footer a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.footer-section ul {
+  padding: 0;
+}
+
+#big-button {
+  width: 500px;
+  margin-top: 10px;
+  padding: 10px 0;
 }
