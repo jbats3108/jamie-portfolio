@@ -1,0 +1,54 @@
+
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 4em;
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.navbar {
+  margin: 5px 35px;
+}
+
+#cta {
+  display: inline;
+}
+
+.main-section {
+  clear: both;
+  max-width: 95%;
+}
+
+.left-block {
+  float: left;
+  width: 25%;
+}
+
+.wide-center-block {
+  float: left;
+  width: 45%;
+}
+
+.right-block {
+  float: left;
+  width: 25%;
+  padding: 0 0;
+}
+
+.third-width {
+  float: left;
+  width: 33%;
+}
