@@ -90,7 +90,6 @@ nav li, nav a{
 }
 
 #cta:hover {
-  background: #555;
   color: #95A1C0;
   font-weight: bold;
 }
@@ -126,7 +125,7 @@ nav li, nav a{
 
 .half-width {
   float: left;
-  width: 49%;
+  width: 50%;
   margin: 0;
   text-align: center;
 }
@@ -148,6 +147,8 @@ nav li, nav a{
 .example-project {
   float: left;
   width: 32%;
+  margin: 0 5px;
+  padding: 0 5px;
 }
 
 /********** Footer **********/
@@ -182,7 +183,6 @@ nav li, nav a{
 }
 
 #big-button:hover {
-  background: #555;
   color: #95A1C0;
   font-weight: bold;
 }
