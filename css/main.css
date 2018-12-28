@@ -1,6 +1,5 @@
 /*********** Global Elements ***********/
 
-
 * {
   box-sizing: border-box;
 }
@@ -39,7 +38,6 @@ body {
   height: 100px;
   text-align: center;
   padding: 15px 0;
-  /* background: #7C9FFF; */
 }
 
 .left-block {
@@ -96,6 +94,12 @@ nav li, nav a{
 
 /********** About Me **********/
 
+.photo-block {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
 #about-me {
   background-color: #95A1C0;
 }
@@ -151,6 +155,10 @@ nav li, nav a{
   padding: 0 5px;
 }
 
+.project-description {
+  /* display: none; */
+}
+
 /********** Footer **********/
 
 #footer {
@@ -172,7 +180,7 @@ nav li, nav a{
 }
 
 #big-button {
-  width: 500px;
+  width: 75%;
   margin-top: 10px;
   color: #fff;
   background: #000;
@@ -185,4 +193,266 @@ nav li, nav a{
 #big-button:hover {
   color: #95A1C0;
   font-weight: bold;
+}
+
+/*********** Responsiveness ***********/
+
+@media (max-width:1440px) {
+
+}
+
+@media (max-width:1024px) {
+
+  nav li {
+    padding: 0px 5px;
+  }
+
+  .right-block {
+    padding: 0;
+    align-content: center;
+  }
+
+  #cta {
+    width: 225px;
+    margin-left: 30px;
+  }
+
+  .two-thirds-block {
+    margin-left: 45px;
+  }
+
+}
+
+@media (max-width:768px) {
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  nav a {
+    padding: 0;
+  }
+
+  #cta {
+    width: 175px;
+    padding: 10px;
+    margin-top: 22px;
+  }
+
+  #about-me {
+    padding: 15px 0;
+    height: 250px;
+  }
+
+  #headshot {
+    width: 150px;
+    height: auto;
+  }
+
+  .two-thirds-block {
+    width: 65%;
+    margin-left: 35px;
+    font-size: 14px;
+  }
+
+  #skills {
+    padding: 10px;
+    height: 230px;
+  }
+
+  #skills h3 {
+    margin-bottom: 0;
+  }
+
+  .half-width {
+    line-height: normal;
+    font-size: 13px;
+    padding: 0 5px;
+  }
+
+  .half-width ul {
+    padding: 0;
+  }
+
+  #projects {
+    padding: 25px 0;
+    height: 325px;
+  }
+
+  #projects p {
+    margin: 5px;
+  }
+
+  #projects h3 {
+    font-size: 1.1em;
+  }
+
+  #footer {
+    padding: 25px 0;
+    height: 275px;
+  }
+
+}
+
+@media (max-width:425px) {
+
+  .navbar h1 {
+    font-size: 3em;
+    padding: 0 auto;
+  }
+
+  .left-block {
+    width: 100%;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  .wide-center-block {
+    clear: both;
+    width: 100%;
+    padding: 0 25px;
+  }
+
+  .wide-center-block ul{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: left;
+  }
+
+  .right-block {
+    clear: both;
+    width: 100%;
+    padding: 0 25px;
+  }
+
+  #cta {
+    width: 75%;
+    margin: 0;
+    padding: 15px 0;
+  }
+
+  a#cta {
+    margin: 0 auto;
+  }
+
+  #about-me {
+    align-content: center;
+    height: 350px;
+    padding: 10px 15px;
+  }
+
+  #headshot {
+    margin-left: 125px;
+    margin-top: 0;
+  }
+
+  .photo-block {
+    width: 100%;
+    height: auto;
+  }
+
+  .two-thirds-block{
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+
+  #about-me h2, #about-me p {
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  #skills {
+    height: 350px;
+  }
+
+  .half-width {
+    width: auto;
+    float: none;
+  }
+
+  .half-width {
+    line-height: auto;
+  }
+
+  .skills ul, h3, li {
+    padding: 0;
+  }
+
+  #projects {
+    height: 475px;
+  }
+
+  .example-project {
+    float: none;
+    width: auto;
+  }
+
+}
+
+@media (max-width:375px) {
+
+  .wide-center-block {
+    font-size: 14px;
+  }
+
+  #headshot {
+    margin-left: 100px;
+  }
+
+  #about-me p {
+    font-size: 13px;
+  }
+
+  #projects p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width:320px) {
+
+  .navbar h1 {
+    padding: 0;
+  }
+
+  .wide-center-block a {
+    font-size: 12px;
+  }
+
+  #headshot {
+    margin-left: 75px;
+  }
+
+  #about-me p {
+    font-size: 12px;
+  }
+
+  #skills {
+    height: 300px;
+  }
+
+  #skills li {
+    padding: 0 auto;
+    line-height: 15px;
+  }
+
+  #projects {
+    height: 450px;
+  }
+
+  #projects h3 {
+    margin: 10px;
+  }
+
+  #footer a{
+    font-size: 1em;
+  }
+
 }
