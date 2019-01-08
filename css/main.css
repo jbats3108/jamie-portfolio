@@ -1,12 +1,17 @@
 /*********** Global Elements ***********/
 
+html {
+  font-size: 1rem;
+}
+
 * {
   box-sizing: border-box;
+
 }
 
 h2 {
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
   padding: 0;
   margin: 0;
 }
@@ -55,19 +60,22 @@ body {
 .right-block {
   float: left;
   width: 25%;
+  margin: 0 auto;
   padding: 0 0;
   height: 100%;
 }
 
 .left-block h1 {
   font-family: 'Mr Dafoe', cursive;
-  font-size: 4em;
+  font-size: 4rem;
   display: inline;
   padding-left: 15px;
 }
 
 nav ul {
   padding: 15px 0;
+  font-size: 1.5rem;
+  margin: 0 auto;
 }
 
 nav li, nav a{
@@ -77,14 +85,15 @@ nav li, nav a{
 }
 
 #cta {
-    margin: 10px 0;
-    padding: 16px 0px;
-    width: 320px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    width: 95%;
     color: #fff;
     background: #000;
     border: none;
     display: block;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 #cta:hover {
@@ -106,6 +115,10 @@ nav li, nav a{
 
 #about-me h2 {
   text-align: left;
+}
+
+#about-me p{
+  font-size: 1.3rem;
 }
 
 #headshot {
@@ -134,11 +147,12 @@ nav li, nav a{
   text-align: center;
 }
 
-.skills ul, h3, li{
+#skills ul, #skills h3, #skills li{
   padding: 2px;
   text-decoration: none;
   line-height: 25px;
   list-style: none;
+  font-size: 1.3rem;
 }
 
 /********** Projects **********/
@@ -146,6 +160,7 @@ nav li, nav a{
 #projects {
   text-align: center;
   background-color: #95A1C0;
+  font-size: 1.2rem;
 }
 
 .example-project {
@@ -153,6 +168,7 @@ nav li, nav a{
   width: 32%;
   margin: 0 5px;
   padding: 0 5px;
+  /* font-size: 1.2rem; */
 }
 
 .project-description {
@@ -169,14 +185,14 @@ nav li, nav a{
 #footer li {
   list-style: none;
   padding: 0;
-  font-size: 1.2em;
+  font-size: 2rem;
   line-height: 1.5em;
 }
 
 .footer-section ul, .footer-section a {
   padding: 0;
   text-decoration: none;
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
 }
 
 #big-button {
@@ -187,6 +203,7 @@ nav li, nav a{
   border: none;
   display: inline-block;
   padding: 10px 0;
+  font-size: 2.5rem;
 
 }
 
@@ -199,12 +216,20 @@ nav li, nav a{
 
 @media (max-width:1440px) {
 
+  nav a {
+    padding: 0;
+  }
+
+  #projects p {
+    margin: 10px auto 0 auto;
+  }
+
 }
 
 @media (max-width:1024px) {
 
-  nav li {
-    padding: 0px 5px;
+  nav li{
+    font-size: 1.1rem;
   }
 
   .right-block {
@@ -213,7 +238,6 @@ nav li, nav a{
   }
 
   #cta {
-    width: 225px;
     margin-left: 30px;
   }
 
@@ -221,31 +245,49 @@ nav li, nav a{
     margin-left: 45px;
   }
 
+  #about-me p {
+    font-size: 1.1rem;
+  }
+
+  #skills li {
+    font-size: 1.1rem;
+  }
+
+  #projects {
+    font-size: 0.95rem;
+  }
+
 }
 
 @media (max-width:768px) {
 
   h1 {
-    font-size: 3em;
+    font-size: 3rem;
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
-  nav a {
-    padding: 0;
+  nav li {
+    padding: 0 5px;
+    font-size: 0.95rem;
   }
 
   #cta {
-    width: 175px;
-    padding: 10px;
-    margin-top: 22px;
+    /* width: 175px; */
+    /* padding: 10px; */
+    /* margin: 0 auto; */
+    font-size: 1.2rem;
   }
 
   #about-me {
     padding: 15px 0;
     height: 250px;
+  }
+
+  #about-me p {
+    font-size: 0.9rem;
   }
 
   #headshot {
@@ -256,7 +298,6 @@ nav li, nav a{
   .two-thirds-block {
     width: 65%;
     margin-left: 35px;
-    font-size: 14px;
   }
 
   #skills {
@@ -268,9 +309,12 @@ nav li, nav a{
     margin-bottom: 0;
   }
 
+  #skills li {
+    font-size: 0.9rem;
+  }
+
   .half-width {
     line-height: normal;
-    font-size: 13px;
     padding: 0 5px;
   }
 
@@ -281,14 +325,11 @@ nav li, nav a{
   #projects {
     padding: 25px 0;
     height: 325px;
+    font-size: 1rem;
   }
 
   #projects p {
     margin: 5px;
-  }
-
-  #projects h3 {
-    font-size: 1.1em;
   }
 
   #footer {
@@ -296,13 +337,16 @@ nav li, nav a{
     height: 275px;
   }
 
+  #big-button {
+    font-size: 1.7rem;
+  }
+
 }
 
 @media (max-width:425px) {
 
   .navbar h1 {
-    font-size: 3em;
-    padding: 0 auto;
+    padding: 0 0;
   }
 
   .left-block {
@@ -310,20 +354,13 @@ nav li, nav a{
     text-align: center;
   }
 
-  h2 {
-    font-size: 1.4em;
-  }
-
   .wide-center-block {
     clear: both;
     width: 100%;
-    padding: 0 25px;
   }
 
   .wide-center-block ul{
-    margin: 0 auto;
-    padding: 0 auto;
-    text-align: left;
+    text-align: center;
   }
 
   .right-block {
@@ -332,30 +369,24 @@ nav li, nav a{
     padding: 0 25px;
   }
 
-  #cta {
-    width: 75%;
-    margin: 0;
-    padding: 15px 0;
-  }
-
   a#cta {
     margin: 0 auto;
   }
 
   #about-me {
-    align-content: center;
     height: 350px;
     padding: 10px 15px;
+    text-align: center;
   }
 
   #headshot {
-    margin-left: 125px;
-    margin-top: 0;
+    margin: 0;
   }
 
   .photo-block {
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
   }
 
   .two-thirds-block{
@@ -364,9 +395,12 @@ nav li, nav a{
     margin: 0;
   }
 
-  #about-me h2, #about-me p {
-    margin-top: 5px;
+  #about-me h2 {
     text-align: center;
+  }
+
+  #about-me p {
+    font-size: 0.8rem;
   }
 
   #skills {
@@ -382,8 +416,12 @@ nav li, nav a{
     line-height: auto;
   }
 
-  .skills ul, h3, li {
-    padding: 0;
+  #skills h2 {
+    padding-bottom: 15px;
+  }
+
+  #skills ul, #skills h3, #skills li {
+    margin: 0 auto;
   }
 
   #projects {
@@ -399,20 +437,30 @@ nav li, nav a{
 
 @media (max-width:375px) {
 
-  .wide-center-block {
-    font-size: 14px;
-  }
-
   #headshot {
-    margin-left: 100px;
+    margin: 0 auto;
   }
 
-  #about-me p {
-    font-size: 13px;
+  #about-me p{
+    font-size: 0.77rem;
   }
 
-  #projects p {
-    font-size: 13px;
+  #skills li {
+    font-size: 0.85rem;
+  }
+
+  #projects {
+    font-size: 0.95rem;
+    padding: 15px 0;
+  }
+
+  #projects h2 {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+  }
+
+  #footer li {
+    font-size: 1.3rem;
   }
 }
 
@@ -422,20 +470,25 @@ nav li, nav a{
     padding: 0;
   }
 
-  .wide-center-block a {
-    font-size: 12px;
+  nav ul {
+    font-size: 0rem;
+    padding: 25px 0;
   }
 
   #headshot {
-    margin-left: 75px;
+    margin: 0;
   }
 
   #about-me p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   #skills {
     height: 300px;
+  }
+
+  #skills h3{
+    font-size: 0.8rem;
   }
 
   #skills li {
@@ -447,12 +500,13 @@ nav li, nav a{
     height: 450px;
   }
 
-  #projects h3 {
-    margin: 10px;
+  #projects h2 {
+    font-size: 1.2rem;
   }
 
-  #footer a{
-    font-size: 1em;
+  #projects p {
+    margin: 0 auto;
+    font-size: 0.8rem;
   }
 
 }
