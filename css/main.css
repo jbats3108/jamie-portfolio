@@ -121,7 +121,7 @@ nav a:link {
 
 #about-me p{
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  /* line-height: 1.5rem; */
 }
 
 #headshot {
@@ -331,7 +331,11 @@ nav a:link {
 
   #projects {
     padding: 25px 0;
-    height: 325px;
+    /* height: 325px; */
+    font-size: 1rem;
+  }
+
+  #projects h3 {
     font-size: 1rem;
   }
 
@@ -432,7 +436,7 @@ nav a:link {
   }
 
   #projects {
-    height: 475px;
+    height: 425px;
   }
 
   .example-project {
@@ -440,6 +444,13 @@ nav a:link {
     width: auto;
   }
 
+  #projects h4 {
+    display: none;
+  }
+
+  .project-description {
+    display: block;
+  }
 }
 
 @media (max-width:375px) {
@@ -487,7 +498,7 @@ nav a:link {
   }
 
   #about-me p {
-    font-size: 0.75rem;
+    font-size: 0.71rem;
   }
 
   #skills {
@@ -504,7 +515,7 @@ nav a:link {
   }
 
   #projects {
-    height: 450px;
+    height: 400px;
   }
 
   #projects h2 {
