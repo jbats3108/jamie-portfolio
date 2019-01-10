@@ -16,6 +16,11 @@ h2 {
   margin: 0;
 }
 
+h4 {
+  margin: 10px auto;
+  padding: 10px;
+}
+
 a:visited, a:link {
   color: inherit;
   text-decoration: underline;
@@ -29,7 +34,8 @@ body {
 }
 
 .main-section {
-  height: 300px;
+  height: auto;
+  overflow: auto;
   clear: both;
   margin: 5px 0;
   padding: 25px 0 0 0;
@@ -70,16 +76,16 @@ body {
   padding-left: 15px;
 }
 
-nav ul {
+.navbar ul {
   padding: 15px 0;
   font-size: 1.5rem;
   margin: 0 auto;
 }
 
-nav li{
+.navbar li{
   display: inline;
   list-style: none;
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
 nav a:link {
@@ -162,9 +168,9 @@ nav a:link {
 
 #projects {
   text-align: center;
+  overflow: auto;
   background: #95A1C0;
   font-size: 1.15rem;
-  height: 200px;
 }
 
 .example-project {
@@ -189,7 +195,8 @@ nav a:link {
 /********** Footer **********/
 
 #footer {
-  height: 300px;
+  height: auto;
+  overflow: auto;
   text-align: center;
 }
 
@@ -231,7 +238,8 @@ nav a:link {
   }
 
   #projects p {
-    margin: 10px auto 0 auto;
+    margin: 5px auto;
+    padding: 5px 0;
   }
 
 }
@@ -265,6 +273,7 @@ nav a:link {
 
   #projects {
     font-size: 1.05rem;
+    padding: 10px 0;
   }
 
 }
@@ -290,7 +299,6 @@ nav a:link {
 
   #about-me {
     padding: 15px 0;
-    height: 225px;
   }
 
   #about-me p {
@@ -309,7 +317,6 @@ nav a:link {
 
   #skills {
     padding: 10px;
-    height: 230px;
   }
 
   #skills h3 {
@@ -321,8 +328,9 @@ nav a:link {
   }
 
   .half-width {
-    line-height: normal;
+    /* line-height: normal; */
     padding: 0 5px;
+    /* height: auto; */
   }
 
   .half-width ul {
@@ -331,7 +339,6 @@ nav a:link {
 
   #projects {
     padding: 25px 0;
-    /* height: 325px; */
     font-size: 1rem;
   }
 
@@ -341,11 +348,6 @@ nav a:link {
 
   #projects p {
     margin: 5px;
-  }
-
-  #footer {
-    padding: 25px 0;
-    height: 275px;
   }
 
   #big-button {
@@ -385,7 +387,6 @@ nav a:link {
   }
 
   #about-me {
-    height: 350px;
     padding: 10px 15px;
     text-align: center;
   }
@@ -414,16 +415,9 @@ nav a:link {
     font-size: 0.8rem;
   }
 
-  #skills {
-    height: 350px;
-  }
-
   .half-width {
     width: auto;
     float: none;
-  }
-
-  .half-width {
     line-height: auto;
   }
 
@@ -432,16 +426,20 @@ nav a:link {
   }
 
   #skills ul, #skills h3, #skills li {
-    margin: 0 auto;
-  }
-
-  #projects {
-    height: 425px;
+    margin: 0;
   }
 
   .example-project {
     float: none;
     width: auto;
+  }
+
+  #projects {
+    padding: 15px 0 10px 0;
+  }
+
+  #projects h3 {
+    margin: 10px auto;
   }
 
   #projects h4 {
@@ -488,7 +486,7 @@ nav a:link {
     padding: 0;
   }
 
-  nav ul {
+  .navbar ul {
     font-size: 0rem;
     padding: 25px 0;
   }
@@ -501,10 +499,6 @@ nav a:link {
     font-size: 0.71rem;
   }
 
-  #skills {
-    height: 300px;
-  }
-
   #skills h3{
     font-size: 0.8rem;
   }
@@ -514,17 +508,20 @@ nav a:link {
     line-height: 15px;
   }
 
-  #projects {
-    height: 410px;
-  }
-
   #projects h2 {
     font-size: 1.2rem;
   }
 
   #projects p {
-    margin: 0 auto;
+    margin: 0;
     font-size: 0.85rem;
   }
 
+  .reveal {
+    display: none;
+  }
+
+  .project-description {
+    display: block;
+  }
 }
