@@ -1,527 +1,505 @@
 /*********** Global Elements ***********/
-
 html {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 * {
-  box-sizing: border-box;
-
+	box-sizing: border-box;
 }
 
 h2 {
-  text-align: center;
-  font-size: 2rem;
-  padding: 0;
-  margin: 0;
+	text-align: center;
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
 }
 
 h4 {
-  margin: 10px auto;
-  padding: 10px;
+	margin: 10px auto;
+	padding: 10px;
 }
 
 a:visited, a:link {
-  color: inherit;
-  text-decoration: underline;
+	color: inherit;
+	text-decoration: underline;
 }
 
 /********** Body sections **********/
-
 body {
-  font-family: 'Comfortaa', cursive;
-  margin: 0;
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
 }
 
 .main-section {
-  height: auto;
-  overflow: auto;
-  clear: both;
-  margin: 5px 0;
-  padding: 25px 0 0 0;
+	height: auto;
+	overflow: auto;
+	clear: both;
+	margin: 5px 0;
+	padding: 25px 0 0 0;
 }
 
 /********** Header Section **********/
-
 .navbar {
-  height: 100px;
-  text-align: center;
-  padding: 15px 0;
+	height: 100px;
+	text-align: center;
+	padding: 15px 0;
 }
 
 .left-block {
-  float: left;
-  width: 25%;
-  height: 100%;
+	float: left;
+	width: 25%;
+	height: 100%;
 }
 
 .wide-center-block {
-  float: left;
-  width: 45%;
-  height: 100%;
+	float: left;
+	width: 45%;
+	height: 100%;
 }
 
 .right-block {
-  float: left;
-  width: 25%;
-  margin: 0 auto;
-  padding: 0 0;
-  height: 100%;
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+	padding: 0 0;
+	height: 100%;
 }
 
 .left-block h1 {
-  font-family: 'Mr Dafoe', cursive;
-  font-size: 4rem;
-  display: inline;
-  padding-left: 15px;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 4rem;
+	display: inline;
+	padding-left: 15px;
 }
 
 .navbar ul {
-  padding: 15px 0;
-  font-size: 1.5rem;
-  margin: 0 auto;
+	padding: 15px 0;
+	font-size: 1.5rem;
+	margin: 0 auto;
 }
 
-.navbar li{
-  display: inline;
-  list-style: none;
-  padding: 0 5px;
+.navbar li {
+	display: inline;
+	list-style: none;
+	padding: 0 5px;
 }
 
 nav a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 #cta {
-    margin: 0 auto;
-    padding: 15px 0px;
-    width: 95%;
-    color: #fff;
-    background: #000;
-    border: none;
-    display: block;
-    text-decoration: none;
-    font-size: 1.5rem;
+	margin: 0 auto;
+	padding: 15px 0px;
+	width: 95%;
+	color: #fff;
+	background: #000;
+	border: none;
+	display: block;
+	text-decoration: none;
+	font-size: 1.5rem;
 }
 
 #cta:hover {
-  color: #95A1C0;
-  font-weight: bold;
+	color: #95A1C0;
+	font-weight: bold;
 }
 
 /********** About Me **********/
-
 #about-me {
-  background: #95A1C0;
+	background: #95A1C0;
 }
 
 .photo-block {
-  float: left;
-  width: 25%;
-  height: 100%;
+	float: left;
+	width: 25%;
+	height: 100%;
 }
 
 #about-me h2 {
-  text-align: left;
+	text-align: left;
 }
 
-#about-me p{
-  font-size: 1.25rem;
-  /* line-height: 1.5rem; */
+#about-me p {
+	font-size: 1.25rem;
 }
 
 #headshot {
-  border-radius: 5%;
-  margin-left: 60px;
-  margin-top: 30px;
-  height: 150px;
+	border-radius: 5%;
+	margin-left: 60px;
+	margin-top: 30px;
+	height: 150px;
 }
 
 .two-thirds-block {
-  float: left;
-  width: 70%;
-  margin-left: 15px;
+	float: left;
+	width: 70%;
+	margin-left: 15px;
 }
 
 /********** Skills **********/
-
 #skills {
-  color: #585F72;
+	color: #585F72;
 }
 
 .half-width {
-  float: left;
-  width: 50%;
-  margin: 0;
-  text-align: center;
+	float: left;
+	width: 50%;
+	margin: 0;
+	text-align: center;
 }
 
-#skills ul, #skills h3, #skills li{
-  padding: 2px;
-  text-decoration: none;
-  line-height: 25px;
-  list-style: none;
-  font-size: 1.3rem;
+#skills ul, #skills h3, #skills li {
+	padding: 2px;
+	text-decoration: none;
+	line-height: 25px;
+	list-style: none;
+	font-size: 1.3rem;
 }
 
 /********** Projects **********/
-
 #projects {
-  text-align: center;
-  overflow: auto;
-  background: #95A1C0;
-  font-size: 1.15rem;
+	text-align: center;
+	overflow: auto;
+	background: #95A1C0;
+	font-size: 1.15rem;
 }
 
 .example-project {
-  float: left;
-  width: 32%;
-  margin: 0 5px;
-  padding: 0 5px;
+	float: left;
+	width: 32%;
+	margin: 0 5px;
+	padding: 0 5px;
 }
 
-.reveal button{
-  text-decoration: none;
-  border: none;
-  background: inherit;
-  padding: 0;
-  margin: 0 auto;
+.reveal button {
+	text-decoration: none;
+	border: none;
+	background: inherit;
+	padding: 0;
+	margin: 0 auto;
 }
 
 .project-description {
-  display: none;
+	display: none;
 }
 
 /********** Footer **********/
-
 #footer {
-  height: auto;
-  overflow: auto;
-  text-align: center;
+	height: auto;
+	overflow: auto;
+	text-align: center;
 }
 
 #footer li {
-  list-style: none;
-  padding: 0;
-  font-size: 1.5rem;
-  line-height: 1.5em;
+	list-style: none;
+	padding: 0;
+	font-size: 1.5rem;
+	line-height: 1.5em;
 }
 
 .footer-section ul, .footer-section a {
-  padding: 0;
-  text-decoration: none;
+	padding: 0;
+	text-decoration: none;
 }
 
 #big-button {
-  width: 75%;
-  margin-top: 10px;
-  color: #fff;
-  background: #000;
-  border: none;
-  display: inline-block;
-  padding: 10px 0;
-  font-size: 1.5rem;
-
+	width: 75%;
+	margin-top: 10px;
+	color: #fff;
+	background: #000;
+	border: none;
+	display: inline-block;
+	padding: 10px 0;
+	font-size: 1.5rem;
 }
 
 #big-button:hover {
-  color: #95A1C0;
-  font-weight: bold;
+	color: #95A1C0;
+	font-weight: bold;
 }
 
 /*********** Responsiveness ***********/
-
 @media (max-width:1440px) {
+	nav a {
+		padding: 0;
+	}
 
-  nav a {
-    padding: 0;
-  }
-
-  #projects p {
-    margin: 5px auto;
-    padding: 5px 0;
-  }
-
+	#projects p {
+		margin: 5px auto;
+		padding: 5px 0;
+	}
 }
 
 @media (max-width:1024px) {
+	nav li {
+		font-size: 1.1rem;
+	}
 
-  nav li{
-    font-size: 1.1rem;
-  }
+	.right-block {
+		padding: 0;
+		align-content: center;
+	}
 
-  .right-block {
-    padding: 0;
-    align-content: center;
-  }
+	#cta {
+		margin-left: 30px;
+	}
 
-  #cta {
-    margin-left: 30px;
-  }
+	.two-thirds-block {
+		margin-left: 45px;
+	}
 
-  .two-thirds-block {
-    margin-left: 45px;
-  }
+	#about-me p {
+		font-size: 1.1rem;
+	}
 
-  #about-me p {
-    font-size: 1.1rem;
-  }
+	#skills li {
+		font-size: 1.1rem;
+	}
 
-  #skills li {
-    font-size: 1.1rem;
-  }
-
-  #projects {
-    font-size: 1.05rem;
-    padding: 10px 0;
-  }
-
+	#projects {
+		font-size: 1.05rem;
+		padding: 10px 0;
+	}
 }
 
 @media (max-width:768px) {
+	h1 {
+		font-size: 3rem;
+	}
 
-  h1 {
-    font-size: 3rem;
-  }
+	h2 {
+		font-size: 1.5rem;
+	}
 
-  h2 {
-    font-size: 1.5rem;
-  }
+	nav li {
+		padding: 0 5px;
+		font-size: 0.95rem;
+	}
 
-  nav li {
-    padding: 0 5px;
-    font-size: 0.95rem;
-  }
+	#cta {
+		font-size: 1.2rem;
+	}
 
-  #cta {
-    font-size: 1.2rem;
-  }
+	#about-me {
+		padding: 15px 0;
+	}
 
-  #about-me {
-    padding: 15px 0;
-  }
+	#about-me p {
+		font-size: 0.9rem;
+	}
 
-  #about-me p {
-    font-size: 0.9rem;
-  }
+	#headshot {
+		width: 150px;
+		height: auto;
+	}
 
-  #headshot {
-    width: 150px;
-    height: auto;
-  }
+	.two-thirds-block {
+		width: 65%;
+		margin-left: 35px;
+	}
 
-  .two-thirds-block {
-    width: 65%;
-    margin-left: 35px;
-  }
+	#skills {
+		padding: 10px;
+	}
 
-  #skills {
-    padding: 10px;
-  }
+	#skills h3 {
+		margin-bottom: 0;
+	}
 
-  #skills h3 {
-    margin-bottom: 0;
-  }
+	#skills li {
+		font-size: 0.9rem;
+	}
 
-  #skills li {
-    font-size: 0.9rem;
-  }
+	.half-width {
+		padding: 0 5px;
+	}
 
-  .half-width {
-    /* line-height: normal; */
-    padding: 0 5px;
-    /* height: auto; */
-  }
+	.half-width ul {
+		padding: 0;
+	}
 
-  .half-width ul {
-    padding: 0;
-  }
+	#projects {
+		padding: 25px 0;
+		font-size: 1rem;
+	}
 
-  #projects {
-    padding: 25px 0;
-    font-size: 1rem;
-  }
+	#projects h3 {
+		font-size: 1rem;
+	}
 
-  #projects h3 {
-    font-size: 1rem;
-  }
+	#projects p {
+		margin: 5px;
+	}
 
-  #projects p {
-    margin: 5px;
-  }
-
-  #big-button {
-    font-size: 1.7rem;
-  }
-
+	#big-button {
+		font-size: 1.7rem;
+	}
 }
 
 @media (max-width:425px) {
+	.navbar h1 {
+		padding: 0 0;
+	}
 
-  .navbar h1 {
-    padding: 0 0;
-  }
+	.left-block {
+		width: 100%;
+		text-align: center;
+	}
 
-  .left-block {
-    width: 100%;
-    text-align: center;
-  }
+	.wide-center-block {
+		clear: both;
+		width: 100%;
+	}
 
-  .wide-center-block {
-    clear: both;
-    width: 100%;
-  }
+	.wide-center-block ul {
+		text-align: center;
+	}
 
-  .wide-center-block ul{
-    text-align: center;
-  }
+	.right-block {
+		clear: both;
+		width: 100%;
+		padding: 0 25px;
+	}
 
-  .right-block {
-    clear: both;
-    width: 100%;
-    padding: 0 25px;
-  }
+	a#cta {
+		margin: 0 auto;
+	}
 
-  a#cta {
-    margin: 0 auto;
-  }
+	#about-me {
+		padding: 10px 15px;
+		text-align: center;
+	}
 
-  #about-me {
-    padding: 10px 15px;
-    text-align: center;
-  }
+	#headshot {
+		margin: 0;
+	}
 
-  #headshot {
-    margin: 0;
-  }
+	.photo-block {
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
 
-  .photo-block {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
+	.two-thirds-block {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
 
-  .two-thirds-block{
-    width: 100%;
-    float: none;
-    margin: 0;
-  }
+	#about-me h2 {
+		text-align: center;
+	}
 
-  #about-me h2 {
-    text-align: center;
-  }
+	#about-me p {
+		font-size: 0.8rem;
+	}
 
-  #about-me p {
-    font-size: 0.8rem;
-  }
+	.half-width {
+		width: auto;
+		float: none;
+		line-height: auto;
+	}
 
-  .half-width {
-    width: auto;
-    float: none;
-    line-height: auto;
-  }
+	#skills h2 {
+		padding-bottom: 15px;
+	}
 
-  #skills h2 {
-    padding-bottom: 15px;
-  }
+	#skills ul, #skills h3, #skills li {
+		margin: 0;
+	}
 
-  #skills ul, #skills h3, #skills li {
-    margin: 0;
-  }
+	.example-project {
+		float: none;
+		width: auto;
+	}
 
-  .example-project {
-    float: none;
-    width: auto;
-  }
+	#projects {
+		padding: 15px 0 10px 0;
+	}
 
-  #projects {
-    padding: 15px 0 10px 0;
-  }
+	#projects h3 {
+		margin: 10px auto;
+	}
 
-  #projects h3 {
-    margin: 10px auto;
-  }
+	#projects h4 {
+		display: none;
+	}
 
-  #projects h4 {
-    display: none;
-  }
-
-  .project-description {
-    display: block;
-  }
+	.project-description {
+		display: block;
+	}
 }
 
 @media (max-width:375px) {
+	#headshot {
+		margin: 0 auto;
+	}
 
-  #headshot {
-    margin: 0 auto;
-  }
+	#about-me p {
+		font-size: 0.77rem;
+	}
 
-  #about-me p{
-    font-size: 0.77rem;
-  }
+	#skills li {
+		font-size: 0.85rem;
+	}
 
-  #skills li {
-    font-size: 0.85rem;
-  }
+	#projects {
+		font-size: 0.95rem;
+		padding: 15px 0;
+	}
 
-  #projects {
-    font-size: 0.95rem;
-    padding: 15px 0;
-  }
+	#projects h2 {
+		font-size: 1.4rem;
+		padding-bottom: 10px;
+	}
 
-  #projects h2 {
-    font-size: 1.4rem;
-    padding-bottom: 10px;
-  }
-
-  #footer li {
-    font-size: 1.3rem;
-  }
+	#footer li {
+		font-size: 1.3rem;
+	}
 }
 
 @media (max-width:320px) {
+	.navbar h1 {
+		padding: 0;
+	}
 
-  .navbar h1 {
-    padding: 0;
-  }
+	.navbar ul {
+		font-size: 0rem;
+		padding: 25px 0;
+	}
 
-  .navbar ul {
-    font-size: 0rem;
-    padding: 25px 0;
-  }
+	#headshot {
+		margin: 0;
+	}
 
-  #headshot {
-    margin: 0;
-  }
+	#about-me p {
+		font-size: 0.71rem;
+	}
 
-  #about-me p {
-    font-size: 0.71rem;
-  }
+	#skills h3 {
+		font-size: 0.8rem;
+	}
 
-  #skills h3{
-    font-size: 0.8rem;
-  }
+	#skills li {
+		padding: 0 auto;
+		line-height: 15px;
+	}
 
-  #skills li {
-    padding: 0 auto;
-    line-height: 15px;
-  }
+	#projects h2 {
+		font-size: 1.2rem;
+	}
 
-  #projects h2 {
-    font-size: 1.2rem;
-  }
+	#projects p {
+		margin: 0;
+		font-size: 0.85rem;
+	}
 
-  #projects p {
-    margin: 0;
-    font-size: 0.85rem;
-  }
+	.reveal {
+		display: none;
+	}
 
-  .reveal {
-    display: none;
-  }
-
-  .project-description {
-    display: block;
-  }
+	.project-description {
+		display: block;
+	}
 }
