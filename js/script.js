@@ -1,15 +1,19 @@
 $(document).ready(function() {
-  $(".reveal").on("click", function() {
+  //Event Listen for Click on Details [+]
+  $(".reveal button").on("click", function() {
+    // Toggle visibility of Project Description
     $(this)
+      .parent()
       .parent()
       .children()
       .last()
       .toggle();
-    // console.log($(this).text());
+    // Switch text label depending on visibility of Description
     $(this)
       .children()
-      .html(function(i, text) {
-        return text === "Details [+]" ? "Hide [-]" : "Details [+]";
+      .html("Details [+]" ? "Hide [-]" : "Details [+]");
       });
-  });
+
 });
+
+//comment
