@@ -172,6 +172,10 @@ nav a:link {
 	padding: 0 5px;
 }
 
+.example-project-header {
+	text-decoration: underline;
+}
+
 .reveal button {
 	text-decoration: none;
 	border: none;

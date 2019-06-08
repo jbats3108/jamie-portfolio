@@ -58,12 +58,11 @@
 			</div>
 			<div class="two-thirds-block">
 				<h2>About Me</h2>
-				<p>My name is Jamie, and I am a Front End Web Developer.
-				I began my career in Customer Service and Account Management, 
-				before moving into more technical roles involving Business and Software Analytics.<br />
-				In 2018, I emigrated to Singapore with my wife, and took the opportunity to retrain.
-				<br>To see my previous work experience, you can download a copy of my CV
-				<a href="./downloads/jamie_batabyal_resume.pdf">here</a>.
+				<p>My name is Jamie, and I am a Full Stack Web Developer.
+					I began my career in Customer Service and Account Management,
+					before moving into more technical roles involving Business and Software Analytics.<br />
+					In 2018, I emigrated to Singapore with my wife, and took the opportunity to retrain in Web Development, kick
+					starting a new and exciting career.
 				</p>
 			</div>
 		</div>
@@ -74,50 +73,66 @@
 			<div class="half-width skills-">
 				<h3>I can use these technologies:</h3>
 				<ul>
-					<li>HTML5</li>
-					<li>CSS3 & Bootstrap</li>
+					<li>HTML5, CSS3 & Bootstrap</li>
+					<li>PHP</li>
+					<li>Wordpress</li>
 					<li>JavaScript (Vanilla & jQuery)</li>
-					<li>Git</li>
+					<li>Docker</li>
 				</ul>
 			</div>
 			<div class="half-width skills-">
 				<h3>To do things like:</h3>
 				<ul>
 					<li>Build beautiful, responsive websites</li>
-					<li>Use photoshop to turn a spec into a web page</li>
-					<li>Add interactivity to your site</li>
-					<li>Collaborate with other Developers on projects</li>
+					<li>Develop API integrations between internal systems and external SaaS platforms</li>
+					<li>Building dynamic, reusable components to manage complex content</li>
+					<li>Add robust interactivity to your site</li>
+					<li>Work with virtualised development environments</li>
 				</ul>
 			</div>
 		</div>
 
 		<!-- Projects -->
 		<div class="main-section" id="projects">
-			<h2>Projects I've worked on already</h2>
-			<p>Below, you can find information about and links to some web development projects I've worked on.</p>
+			<h2>Projects & Experience</h2>
+			<p>My professional experience as a developer and before can be read in detail in my resume <a
+					href="./downloads/jamie_batabyal_resume.pdf">here</a>.</p>
+			<p>Below are some projects I've worked on as part of my training, on the side, or as a contractor </p>
 
 			<div class="example-project">
-				<h3><a href="magic-8-ball/index.html">Magic 8 Ball</a></h3>
+				<h3 class=example-project-header>Multi-file uploads & dynamic ratings display</h3>
 				<h4 class="reveal"><button type="button" onclick="click">Details [+]</button></h4>
 				<div class="project-description">
-					<p>This project used JavaScript and jQuery to create an onlline Magic 8 Ball 
-						with randomised answers </p>
+					<p>This work, performed as an independent contractor, involved adding improved functionality to the internal
+						area of a Client's site, such as allowing multiple, drag and drop file uploads, and an accurate, dynamic
+						display of ratings drawn from the database. Completing this required a mixture of
+						standard jQuery, additional jQuery libraries, and PHP.
+						<br>This formed part of my first paid work as a developer, working for Perun Ltd.</p>
 				</div>
 			</div>
 
 			<div class="example-project">
-				<h3><a href="election-map/index.html">Interactive US Election Map</a></h3>
+				<h3 class=example-project-header>Interactive US Election Map</h3>
 				<h4 class="reveal"><button type="button" onclick="click">Details [+]</button></h4>
 				<div class="project-description">
-					<p>In this project, I took the map by DougX and wrote my own JavaScript to add mouse-over interactivity for each state.</p>
+					<p>In this project, I took an exisiting map of the USA and accompanying functionality by DougX, and used it to
+						create an Election Map that has mouse-over interactivity.
+						The states change colour dependant on the 'winner', and a text box displays the simulated results for
+						whichever state is currently being viewed. You can view the project <a
+							href="election-map/index.html">here</a>.
+						<br>This was a project undertaken during an online Bootcamp, and used vanilla JavaScript, as well as some
+						CSS and HTML.
+					</p>
 				</div>
 			</div>
 
 			<div class="example-project">
-				<h3><a href="lolcat/index.html">A lolcat Clock</a></h3>
+				<h3 class=example-project-header>Magic 8 Ball</a></h3>
 				<h4 class="reveal"><button type="button" onclick="click">Details [+]</button></h4>
 				<div class="project-description">
-					<p>This project was designed for practicing with different Event Listeners in Vanilla JavaScript, such as change and click.</p>
+					<p>This project used JavaScript and jQuery to create an online Magic 8 Ball
+						with randomised answers. I built this during a bootcamp, as part of my introduction to jQuery event
+						handling. The 8 Ball can be played with <a href="./magic-8-ball/index.html">here.</a></p>
 				</div>
 			</div>
 
@@ -132,7 +147,8 @@
 		<div class="footer-section">
 			<h2>Learn more about me:</h2>
 			<ul>
-				<li><a href="https://www.linkedin.com/in/jamiebatabyal/" class="ion-social-linkedin"> Find me on LinkedIn</a></li>
+				<li><a href="https://www.linkedin.com/in/jamiebatabyal/" class="ion-social-linkedin"> Find me on LinkedIn</a>
+				</li>
 				<li><a href="https://github.com/jbats3108/" class="ion-social-github"> See my work on Github</a></li>
 			</ul>
 		</div>
@@ -141,9 +157,13 @@
 		<div class="footer-section">
 			<a href="mailto:jamiebatabyal@gmail.com" id="big-button">Get in Touch</a>
 		</div>
-		<h6>&copy; Jamie Batabyal 2019</h6>
+		<h6>&copy; Jamie Batabyal <script type="text/javascript">
+			document.write(new Date().getFullYear());
+		</script></h6>
 	</footer>
-	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+		crossorigin="anonymous"></script>
 	<script src="js/script.js" type="text/javascript"></script>
 	<!-- <script src="js/query.js" type="text/javascript"></script> -->
 </body>
